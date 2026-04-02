@@ -1,0 +1,15 @@
+🐉 Enter target URL: https://example.com
+
+⚠️ LEGAL NOTICE
+Unauthorised scanning is illegal.
+Do you have explicit written permission? [yes/no]: yes
+
+Scan mode:
+  1 = Full scan (all 26 modules)
+  2 = Fast scan
+  3 = Stealth scan
+Choice [1]: 1
+
+Output directory [./]: ./reports
+
+🔥 Releasing the Dragon...
